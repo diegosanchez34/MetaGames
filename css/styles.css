@@ -26,7 +26,7 @@
     text-decoration: none;
     color:white;
     opacity: .9;
-    font-size: larger;
+    font-size: large;
 }
 
 .izquierda ul li:hover{
@@ -52,10 +52,33 @@
     transform: scale(1.2);
 }
 
+.cabecera{
+    margin-left: 18%;
+    margin-bottom: 0%;
+    border-left:2px solid #262628;
+    padding: 2%;
+}
+
+.log-in{
+    font-size: large;
+    text-decoration: none;
+    color:white;
+    opacity: 0.5;
+    transition: .4s;
+    padding: 1%;
+    float: right;
+}
+
+.log-in:hover{
+    text-decoration: none;
+    opacity: 1;
+    color:white;
+}
+
 .barra-busqueda{
     width: 30%;
+    display: inline-block;
     background-color: #26282c;
-    margin-bottom: 3%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -63,7 +86,7 @@
 }
 
 .busqueda{
-    margin-left: 30px;
+    margin-left: 5%;
     width: 80%;
     height: 50px;
     background: none;
@@ -81,13 +104,15 @@
 
 .contenido{
     margin-left: 18%;
-    padding: 3%;
     border-left:2px solid #262628;
     min-height: 900px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
 }
 
 .fila{
-    padding-left: 2%;
+    padding-left: 3%;
     padding-right: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -96,13 +121,10 @@
 }
 
 .juego {
-    font-size: 30px;
-    font-weight: 500;
-    color: white;
-    opacity: 0.5;
-    transition: .4s;
+    color: gray;
     text-decoration: none;
     text-align: center;
+    transition: .4s;
 }
 
 .juego:hover{
@@ -111,16 +133,28 @@
     text-decoration: none;
 }
 
+.titulo{
+    
+    font-size: 25px;
+    font-weight: 500;
+}
+
 .precio{
     display: block;
-    font-size: 80%;
+    font-size: 20px;
     font-weight: 300;
 }
+
   
 .cover {
+    opacity: 1;
     display: block;
     height: 350px;
     transition: transform .15s;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
   
 .cover:hover {

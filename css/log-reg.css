@@ -1,12 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'poppins',sans-serif;
+.cuerpo{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin:0px;
+    padding:0px;
     background-color: #18181A;
+    
 }
 .logo1{
     width: 450px;
+  float: left;
+   margin-left: 300px;
+   
+
    
 }
 section{
@@ -21,34 +28,35 @@ section{
 }
 .form-box{
     position: relative;
-    width: 400px;
-    height: 450px;
+    width: 450px;
+    height: 500px;
     background: transparent;
-    border: 2px solid #97ff04;
+    border: 2px solid white;
     border-radius: 20px;
     backdrop-filter: blur(15px);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 
 }
 h2{
     font-size: 2em;
-    color: #97ff04;
+    color: white;
     text-align: center;
 }
 .inputbox{
     position: relative;
     margin: 30px 0;
     width: 310px;
-    border-bottom: 2px solid #97ff04;
+    border-bottom: 2px solid white;
 }
 .inputbox label{
     position: absolute;
     top: 50%;
     left: 5px;
     transform: translateY(-50%);
-    color: #97ff04;
+    color: white;
     font-size: 1em;
     pointer-events: none;
     transition: .5s;
@@ -70,14 +78,14 @@ top: -5px;
 .inputbox ion-icon{
     position: absolute;
     right: 8px;
-    color: #97ff04;
+    color: white;
     font-size: 1.2em;
     top: 20px;
 }
 .forget{
     margin: -15px 0 15px ;
     font-size: .9em;
-    color: #97ff04;
+    color: white;
     display: flex;
     justify-content: space-between;  
 }
@@ -87,7 +95,7 @@ top: -5px;
     
 }
 .forget label a{
-    color: #97ff04;
+    color: white;
     text-decoration: none;
 }
 .forget label a:hover{
@@ -97,7 +105,7 @@ button{
     width: 100%;
     height: 40px;
     border-radius: 40px;
-    background: #97ff04;
+    background: white;
     border: none;
     outline: none;
     cursor: pointer;
@@ -106,13 +114,13 @@ button{
 }
 .register{
     font-size: .9em;
-    color: #97ff04;
+    color: white;
     text-align: center;
     margin: 25px 0 10px;
 }
 .register p a{
     text-decoration: none;
-    color: #97ff04;
+    color: white;
     font-weight: 600;
 }
 .register p a:hover{

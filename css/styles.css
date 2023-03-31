@@ -244,3 +244,48 @@
   transition: all 0.3s ease-out;
   transform: skewX(-45deg) scale(1, 1);
 }
+.ptitle{
+    margin-top:3%;
+    text-align: center;
+    color:white;
+    font-size: 2.5em;
+}
+
+.icon-title{  
+     height: 40px;
+    transition: .5s;
+    padding-right: 2%;
+
+}
+
+.table{
+    border: 2px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+
+}
+.text-center{
+    color:white;
+}
+th{
+    color:white;
+}
+
+.formulario{
+    border: 2px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    
+}
+
+.title-f{
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}

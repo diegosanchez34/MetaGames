@@ -245,7 +245,7 @@
   transform: skewX(-45deg) scale(1, 1);
 }
 .ptitle{
-    margin-top:3%;
+    
     text-align: center;
     color:white;
     font-size: 2.5em;
@@ -265,6 +265,7 @@
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
+    box-shadow: 0 5px 10px white;
 
 }
 .text-center{
@@ -289,3 +290,70 @@ th{
     margin-bottom: 20px;
     text-decoration: underline;
 }
+
+.nosotros{
+    margin-top:1.8%;
+    background: transparent;
+    font-size: 20px;
+    text-align: center;
+
+}
+.nosotros p{
+    margin-top: 2%;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.redes{
+    margin-left: 280px;
+}
+
+.redes img{
+    
+    width: 200px;
+    height: 200px;
+}
+.wsplink a{
+    text-align: center center;
+    content: "Nuestro Whatsapp  ";
+
+}
+.wsplink{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    content: "Nuestro Whatsapp  ";
+
+    background: transparent;
+    border: 2px solid gray;
+   
+    border-radius: 3px;
+    position: relative;
+   
+    overflow: hidden;
+    display: inline-block;
+}
+
+.wsplink:hover{  color: #020202;
+    
+}
+.wsplink::after{  
+    content: "Nuestro Whatsapp  ";
+    background: #44d32a; 
+    position: absolute;
+
+    padding: 30px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+
+}
+
+.wsplink:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+  

@@ -134,10 +134,18 @@
 }
 
 .titulo{
-    
+    text-align: left;
     font-size: 25px;
     font-weight: 500;
+
 }
+.tituloR{
+    
+    font-size: 20px;
+    font-weight: 500;
+        
+}
+
 
 .precio{
     display: block;

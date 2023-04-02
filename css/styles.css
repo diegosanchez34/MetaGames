@@ -178,6 +178,22 @@
         
 }
 
+.tituloTE{
+    font-size: 16px;
+    font-weight: 500;
+        
+}
+
+.tituloLG{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.tituloTL{
+    font-size: 20px;
+    font-weight: 500;
+}
+
 
 .precio{
     display: block;

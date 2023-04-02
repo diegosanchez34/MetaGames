@@ -284,19 +284,74 @@ th{
 }
 
 .formulario{
+    background-color: white;
     border: 2px solid white;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
+    width: 66%;
+    margin-left: 200px;
     
 }
 
 .title-f{
+   text-align: center;
     color: white;
     margin-bottom: 20px;
     text-decoration: underline;
+}
+
+
+.formulario h3{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.formulario input{
+  
+    width: 80%;
+    height: 30%;
+    margin-left: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.formulario label{
+    width: 100%;
+    margin-left: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+.formulario button{
+    width: 20%;
+    height: 45px;
+    
+    margin-left: 320px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.mensaje {
+
+    margin-left: 27px ;
+    
+}
+.mensaje label{
+    margin-left: -6px;
+}
+.texto_mensaje{
+    width: 80%;
+    height: 50px;
 }
 
 .nosotros{

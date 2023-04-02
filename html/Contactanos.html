@@ -41,7 +41,7 @@
         <h1 class="title-f"> Formulario de contacto</h1>
         <div class="formulario">      
  
-            <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+            <h3>Escríbenos y en breve nos pondremos <br> en contacto contigo</h3>
     
     
               <form action="submeter-formulario.php" method="post">       
@@ -51,14 +51,14 @@
                       <label for="nombre" class="colocar_nombre">Nombre:
     
                       </label>
-                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                        <input class="inform" type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
                     </p>
                   
                     <p>
                       <label for="email" class="colocar_email">Email
                         <span class="obligatorio">*</span>
                       </label>
-                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                        <input class="inform" type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
                     </p>
                 
                     <p>
@@ -67,11 +67,6 @@
                         <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
                     </p>    
                   
-                    <p>
-                      <label for="website" class="colocar_website">Sitio web
-                      </label>
-                        <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
-                    </p>    
                   
                     <p>
                       <label for="asunto" class="colocar_asunto">Asunto
@@ -80,7 +75,7 @@
                         <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
                     </p>    
                   
-                    <p>
+                    <p class="mensaje">
                       <label for="mensaje" class="colocar_mensaje">Mensaje
                         <span class="obligatorio">*</span>
                       </label>                     

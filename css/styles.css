@@ -204,6 +204,39 @@
     font-weight: 500;
 }
 
+.tituloA {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tituloC {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tituloK {
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+
+.tituloN{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tituloW{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tituloS{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
 .precio{
     display: none;
     font-size: 20px;
@@ -229,6 +262,7 @@
     text-align: center;
     font-size: medium;
     font-weight: 400;
+    transition: all 0.3s ease;
     padding: 3%
 }
 

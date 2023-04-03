@@ -54,67 +54,65 @@
 
 .cabecera{
     margin-left: 18%;
-    margin-bottom: 0%;
     border-left:2px solid #262628;
     padding: 2%;
 }
 
 .log-in{
-    font-size: large;
+    font-size: medium;
     text-decoration: none;
-    color:white;
-    opacity: 0.5;
+    color:gray;
     transition: .4s;
-    padding: 1%;
     float: right;
-    border: 2px solid black;
-    background-color: #26282c;
-   
-    
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
+    background-color: #262628;
 
-   
-
-}
-
-.log-in1:hover{
-    text-decoration: none;
-    opacity: 1;
-    color:white;
-}
-
-.log-in1{
-    font-size: large;
-    text-decoration: none;
-    color:white;
-    opacity: 0.5;
-    transition: .4s;
-    padding: 1%;
-    float: right;
-    border: 2px solid black;
-    background-color: #26282c;
+    padding-left: 2%;
+    padding-right: 1.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-
-  
-
+    border-right:1px solid #18181A;
 }
 
 .log-in:hover{
     text-decoration: none;
-    opacity: 1;
+    background-color: #363638;
+    color:white;
+}
+
+.sing-in{
+    font-size: medium;
+    text-decoration: none;
+    color:gray;
+    transition: .4s;
+    float: right;
+    background-color: #262628;
+
+    padding-left: 1.5%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-left:1px solid #18181A;
+}
+
+.sing-in:hover{
+    text-decoration: none;
+    background-color: #363638;
     color:white;
 }
 
 .barra-busqueda{
     width: 30%;
     display: inline-block;
-    background-color: #26282c;
+    background-color: #262628;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
+    font-size: large;
 }
 
 .busqueda{
@@ -141,6 +139,20 @@
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
+}
+
+.titulo-pagina{
+    text-align: center;
+    color:White;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 1%;
+    opacity: .5;
+}
+
+.titulo-pagina img{  
+    height: 60px;
+    padding-right: 2%;
 }
 
 .fila{
@@ -172,10 +184,8 @@
 
 }
 .tituloR{
-    
     font-size: 20px;
-    font-weight: 500;
-        
+    font-weight: 500;    
 }
 
 .tituloTE{
@@ -194,14 +204,12 @@
     font-weight: 500;
 }
 
-
 .precio{
-    display: block;
+    display: none;
     font-size: 20px;
     font-weight: 300;
 }
 
-  
 .cover {
     opacity: 1;
     display: block;
@@ -216,16 +224,34 @@
 .cover:hover {
     transform: scale(1.05);
 }
-  
-.pie{
-    position: absolute;
-    width: 100%;
-    background-color: #262628;
-    color:white;
+
+.navegacion{
     text-align: center;
-    padding: 3%;
+    font-size: medium;
+    font-weight: 400;
+    padding: 3%
 }
 
+.boton{
+    opacity: .5;
+    color:White;
+    text-decoration: none;
+    transition: .4s;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 2%;
+    margin-right: 5%;
+    border-radius: 10px;
+    background-color: #262628;
+}
+
+.boton:hover{
+    opacity: 1;
+    color:White;
+    text-decoration: none;
+    background-color: #363638;
+}
 
 .div {
     color: gray;
@@ -245,6 +271,7 @@
 .div:hover {
   color: #020202;
 }
+
 .div::after {
   content: "";
   background: #858689; 
@@ -259,6 +286,7 @@
   transform: skewX(-45deg) scale(0, 1);
   transition: all 0.3s ease;
 }
+
 .div:hover::after {
   transition: all 0.3s ease-out;
   transform: skewX(-45deg) scale(1, 1);
@@ -282,6 +310,7 @@
 .div2:hover {
   color: #020202;
 }
+
 .div2::after {
   content: "";
   background: #858689; 
@@ -296,22 +325,19 @@
   transform: skewX(-45deg) scale(0, 1);
   transition: all 0.3s ease;
 }
+
 .div2:hover::after {
   transition: all 0.3s ease-out;
   transform: skewX(-45deg) scale(1, 1);
 }
-.ptitle{
-    margin-bottom: 20px;
-    text-align: center;
+  
+.pie{
+    position: absolute;
+    width: 100%;
+    background-color: #262628;
     color:white;
-    font-size: 2.5em;
-}
-
-.icon-title{  
-     height: 40px;
-    transition: .5s;
-    padding-right: 2%;
-
+    text-align: center;
+    padding: 3%;
 }
 
 .table{
@@ -390,7 +416,6 @@ th{
     border-top-right-radius: 20px;
 }
 .mensaje {
-
     margin-left: 27px ;
     
 }

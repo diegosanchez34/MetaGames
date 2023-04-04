@@ -262,6 +262,15 @@
     font-weight: 500;
 }
 
+.tituloNU{
+    font-size:17px;
+    font-weight: 500;
+}
+
+.tituloNA{
+    font-size:16px;
+    font-weight: 500;
+}
 
 .precio{
     display: none;

@@ -392,7 +392,7 @@ th{
 }
 
 .formulario{
-    background-color: white;
+    background-color: rgb(51, 48, 48);
     border: 2px solid white;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -401,6 +401,7 @@ th{
     background-size: cover;
     width: 66%;
     margin-left: 200px;
+   
     
 }
 
@@ -413,23 +414,29 @@ th{
 
 
 .formulario h3{
+    text-align: center;
+    color:white;
     margin-top: 20px;
     margin-left: 25px;
 }
 .formulario input{
-  
-    width: 80%;
-    height: 30%;
-    margin-left: 20px;
-    padding: 7px;
-    box-sizing: border-box;
-    font-size: 17px;
+  margin-left: 20px;
+  margin-right: 20px;
+    width: 95%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid black;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #000000;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
 }
 .formulario label{
+    color:white;
     width: 100%;
     margin-left: 20px;
     padding: 7px;

@@ -141,6 +141,27 @@
     padding-bottom: 2%;
 }
 
+.titulo-paginaC{
+    text-align: center;
+    color:White;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 1%;
+    opacity: .5;
+    transition: .3S;
+}
+
+.titulo-paginaC:hover{
+    opacity: 1;
+    color: white;
+    text-decoration: none;
+
+}
+
+.titulo-paginaC img{  
+    height: 60px;
+    padding-right: 2%;
+}
 .titulo-pagina{
     text-align: center;
     color:White;
@@ -148,6 +169,7 @@
     font-weight: 500;
     padding-bottom: 1%;
     opacity: .5;
+    
 }
 
 .titulo-pagina img{  
@@ -163,6 +185,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+
 
 .juego {
     color: gray;
@@ -180,9 +205,10 @@
 .titulo{
     text-align: left;
     font-size: 25px;
-    font-weight: 500;
-
+    font-weight: 500; 
 }
+
+
 .tituloR{
     font-size: 20px;
     font-weight: 500;    
@@ -252,11 +278,17 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    
 }
+
+
   
 .cover:hover {
     transform: scale(1.05);
+    opacity: 0.4;
 }
+
+
 
 .navegacion{
     text-align: center;
@@ -489,4 +521,10 @@ th{
     height: 200px;
 }
 
+.iluJC{
+    transition: .4s;
+}
 
+.iluJC:hover{
+    transition: .4s;
+}

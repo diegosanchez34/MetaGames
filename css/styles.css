@@ -542,10 +542,10 @@ th{
     height: 200px;
 }
 
-<<<<<<< HEAD
+
 .table a{
     text-decoration: none;
-    color:white;
+    color:rgb(255, 255, 255);
 }
 .table a:hover{
     text-decoration: none;
@@ -583,12 +583,11 @@ th{
 .category a:hover{
     text-decoration: none;
     color: aqua;
-=======
+}
 .iluJC{
     transition: .4s;
 }
 
 .iluJC:hover{
     transition: .4s;
->>>>>>> fd1e809f03424508e38930978fb25910c49de4ad
 }

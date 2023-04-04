@@ -409,15 +409,15 @@ th{
     opacity: 1;
 }
 
-
 .card-body{
     color: white;
     background-color: #262628;
 }
 
 .formulario{
+    color: grey;
     background-color: #18181A;
-    border: 2px solid white;
+    border: 2px solid grey;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -439,9 +439,9 @@ th{
 
 .formulario h3{
     text-align: center;
-    color:white;
-    margin-top: 20px;
-    margin-left: 25px;
+    color:grey;
+    margin-top: 3%;
+    margin-left: 3%;
 }
 .formulario input{
   margin-left: 20px;

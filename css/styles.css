@@ -433,7 +433,7 @@ th{
 }
 
 .formulario{
-    background-color: rgb(51, 48, 48);
+    background-color: #18181A;
     border: 2px solid white;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -488,10 +488,10 @@ th{
     font-size: 17px;
 }
 .formulario button{
+    background-color:#26282c;
     width: 20%;
     height: 45px;
-    
-    margin-left: 320px;
+     margin-left: 320px;
     padding: 7px;
     box-sizing: border-box;
     font-size: 17px;
@@ -512,6 +512,7 @@ th{
 .texto_mensaje{
     width: 97.5%;
     height: 50px;
+    background-color:#26282c;
 }
 
 .nosotros{
@@ -545,7 +546,7 @@ th{
 
 .table a{
     text-decoration: none;
-    color:rgb(255, 255, 255);
+    color:rgb(75, 35, 253);
 }
 .table a:hover{
     text-decoration: none;

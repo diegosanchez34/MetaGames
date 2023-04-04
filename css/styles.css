@@ -287,10 +287,7 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
-    
 }
-
-
   
 .cover:hover {
     transform: scale(1.05);
@@ -328,82 +325,51 @@
     background-color: #363638;
 }
 
-.div {
+.texto{
     color: gray;
-    text-decoration: none;
-    margin-top: 0rem;
-    margin-left: 53.3rem;
-    background: transparent;
-    border: 2px solid gray;
-    padding: 16px 20px;
-    border-radius: 3px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    display: inline-block;
+    font-size: large;
+    text-align: justify;
+    margin: 3%;
 }
 
-.div:hover {
-  color: #020202;
+.articulo{
+    margin-top: 5%;
+    margin-bottom: 5%;    
+    color: white;
+    opacity: .5;
+    font-size: larger;
+    text-align: justify;
+    background-color: #262628;
+    border-radius: 10px;
+
+    height: 300px;
+    transition: .4s;
 }
 
-.div::after {
-  content: "";
-  background: #858689; 
-  position: absolute;
-  z-index: -1;
-  padding: 16px 20px;
-  display: block;
-  left: -20%;
-  right: -20%;
-  top: 0;
-  bottom: 0;
-  transform: skewX(-45deg) scale(0, 1);
-  transition: all 0.3s ease;
+.articulo:hover{
+    opacity: 1;
 }
 
-.div:hover::after {
-  transition: all 0.3s ease-out;
-  transform: skewX(-45deg) scale(1, 1);
+.left{
+    padding: 5%;
+    vertical-align: middle;
+    
+    width: 50%;
+    height: 100%;
+    float: left;
 }
 
-.div2 {
-    color: gray;
-    text-decoration: none;
-    margin-top: -2rem;
-    margin-left: -30rem;
-    background: transparent;
-    border: 2px solid gray;
-    padding: 16px 20px;
-    border-radius: 3px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    display: inline-block;
+.right{
+    width: 50%;
+    height: 100%;
+    float: right;
 }
 
-.div2:hover {
-  color: #020202;
-}
-
-.div2::after {
-  content: "";
-  background: #858689; 
-  position: absolute;
-  z-index: -1;
-  padding: 16px 20px;
-  display: block;
-  left: -20%;
-  right: -20%;
-  top: 0;
-  bottom: 0;
-  transform: skewX(-45deg) scale(0, 1);
-  transition: all 0.3s ease;
-}
-
-.div2:hover::after {
-  transition: all 0.3s ease-out;
-  transform: skewX(-45deg) scale(1, 1);
+.articulo img{
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
   
 .pie{
@@ -425,11 +391,28 @@
     box-shadow: 0 5px 10px white;
 
 }
+
 .text-center{
     color:white;
 }
+
 th{
     color:white;
+}
+
+.card{
+    opacity: .5;
+    transition: .4s;
+}
+
+.card:hover{
+    opacity: 1;
+}
+
+
+.card-body{
+    color: white;
+    background-color: #262628;
 }
 
 .formulario{
@@ -513,24 +496,6 @@ th{
     width: 97.5%;
     height: 50px;
     background-color:#26282c;
-}
-
-.nosotros{
-    margin-top:1.8%;
-    background-color: #26282c;
-    font-size: 20px;
-    text-align: center;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    border: 1.5px solid greenyellow;
-
-}
-.nosotros p{
-    margin-top: 2%;
-    color:white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .redes{

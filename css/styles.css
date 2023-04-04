@@ -141,6 +141,27 @@
     padding-bottom: 2%;
 }
 
+.titulo-paginaC{
+    text-align: center;
+    color:White;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 1%;
+    opacity: .5;
+    transition: .3S;
+}
+
+.titulo-paginaC:hover{
+    opacity: 1;
+    color: white;
+    text-decoration: none;
+
+}
+
+.titulo-paginaC img{  
+    height: 60px;
+    padding-right: 2%;
+}
 .titulo-pagina{
     text-align: center;
     color:White;
@@ -148,6 +169,7 @@
     font-weight: 500;
     padding-bottom: 1%;
     opacity: .5;
+    
 }
 
 .titulo-pagina img{  
@@ -163,6 +185,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+
 
 .juego {
     color: gray;
@@ -180,9 +205,10 @@
 .titulo{
     text-align: left;
     font-size: 25px;
-    font-weight: 500;
-
+    font-weight: 500; 
 }
+
+
 .tituloR{
     font-size: 20px;
     font-weight: 500;    
@@ -236,6 +262,15 @@
     font-weight: 500;
 }
 
+.tituloNU{
+    font-size:17px;
+    font-weight: 500;
+}
+
+.tituloNA{
+    font-size:16px;
+    font-weight: 500;
+}
 
 .precio{
     display: none;
@@ -252,11 +287,17 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    
 }
+
+
   
 .cover:hover {
     transform: scale(1.05);
+    opacity: 0.4;
 }
+
+
 
 .navegacion{
     text-align: center;
@@ -375,8 +416,8 @@
 }
 
 .table{
-    border: 2px solid white;
-    border-top-left-radius: 20px;
+    
+    border-top-left-radius: 30px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
@@ -392,7 +433,7 @@ th{
 }
 
 .formulario{
-    background-color: white;
+    background-color: #18181A;
     border: 2px solid white;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -401,6 +442,7 @@ th{
     background-size: cover;
     width: 66%;
     margin-left: 200px;
+   
     
 }
 
@@ -413,23 +455,32 @@ th{
 
 
 .formulario h3{
+    text-align: center;
+    color:white;
     margin-top: 20px;
     margin-left: 25px;
 }
 .formulario input{
-  
-    width: 80%;
-    height: 30%;
-    margin-left: 20px;
-    padding: 7px;
-    box-sizing: border-box;
-    font-size: 17px;
+  margin-left: 20px;
+  margin-right: 20px;
+    width: 95%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid black;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fffefe;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+  
     border-top-right-radius: 20px;
 }
+
+
 .formulario label{
+    color:white;
     width: 100%;
     margin-left: 20px;
     padding: 7px;
@@ -437,10 +488,10 @@ th{
     font-size: 17px;
 }
 .formulario button{
+    background-color:#26282c;
     width: 20%;
     height: 45px;
-    
-    margin-left: 320px;
+     margin-left: 320px;
     padding: 7px;
     box-sizing: border-box;
     font-size: 17px;
@@ -451,14 +502,17 @@ th{
 }
 .mensaje {
     margin-left: 27px ;
+
     
 }
 .mensaje label{
     margin-left: -6px;
+    box-sizing: border-box;
 }
 .texto_mensaje{
-    width: 80%;
+    width: 97.5%;
     height: 50px;
+    background-color:#26282c;
 }
 
 .nosotros{
@@ -490,3 +544,51 @@ th{
 }
 
 
+.table a{
+    text-decoration: none;
+    color:rgb(75, 35, 253);
+}
+.table a:hover{
+    text-decoration: none;
+    color:red;
+}
+
+.footer-ul-container{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    margin-left: 590px;
+}
+.footer-link{
+    float:left;
+}
+.footer-link1{
+    float:left;
+}
+.footer-link2{
+    float:left;
+}
+.footer-link3{
+    float:left;
+}
+
+.category-title{
+    float: left;
+    list-style: none;
+}
+.category a{
+    text-decoration:none;
+    color:white;
+}
+
+.category a:hover{
+    text-decoration: none;
+    color: aqua;
+}
+.iluJC{
+    transition: .4s;
+}
+
+.iluJC:hover{
+    transition: .4s;
+}

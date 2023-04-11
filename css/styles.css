@@ -441,17 +441,13 @@ th{
 
 .formulario{
     color: grey;
-    background-color: #18181A;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
     border: 2px solid grey;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    background-size: cover;
-    width: 66%;
-    margin-left: 200px;
-   
-    
+    border-radius: 50px;
 }
 
 .title-f{

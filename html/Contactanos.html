@@ -45,22 +45,22 @@
           <form action="Satisf.html" method="post">       
             <p>
               <label for="nombre" class="colocar_nombre">Nombre:</label>
-              <input class="inform" type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+              <input class="inform" type="text" name="introducir_nombre" id="nombre" required pattern="[A-Za-z]+" placeholder="Escribe tu nombre" maxlength="40">
             </p>
               
             <p>
               <label for="email" class="colocar_email">Email:<span class="obligatorio"></span></label>
-              <input class="inform" type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+              <input class="inform" type="email" name="introducir_email" id="email" required placeholder="Escribe tu Email">
             </p>
             
             <p>
               <label for="telefone" class="colocar_telefono">Teléfono:</label>
-              <input type="number" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+              <input type="text" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono (Agrega el signo '+')" required pattern="[+][0-9]{1,3}[0-9]{8,12}">
             </p>    
                
             <p>
               <label for="asunto" class="colocar_asunto">Asunto:<span class="obligatorio"></span></label>
-              <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+              <input type="text" name="introducir_asunto" id="assunto"  placeholder="Escribe un asunto">
             </p>    
               
             <p class="mensaje">

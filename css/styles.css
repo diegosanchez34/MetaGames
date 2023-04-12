@@ -348,45 +348,96 @@
     font-size: larger;
     text-align: justify;
     background-color: #262628;
-    border-radius: 10px;
+    border-radius: 20px;
 
-    height: 300px;
+    height: auto;
     transition: .4s;
+    position: relative;
+
+    display: flex;
 }
 
 .articulo:hover{
     opacity: 1;
 }
 
+
 .left{
-    padding: 5%;
-    vertical-align: middle;
-    
-    width: 50%;
-    height: 100%;
     float: left;
+    width: 60%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right{
-    width: 50%;
-    height: 100%;
-    float: right;
-}
-
-.articulo img{
-    width: 100%;
-    height: 100%;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    width: 40%;
+    height: auto;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
 }
   
 .pie{
     position: absolute;
     width: 100%;
+    height: 20%;
     background-color: #262628;
-    color:white;
     text-align: center;
-    padding: 3%;
+    color:white;
+    padding: 2%;
+}
+
+.logo_pie{
+    height: 90px;
+}
+
+.icono_pie{
+    height: 40px;
+}
+
+.pie a{
+    display: inline;
+    padding-left: 4%;
+}
+
+.izq_pie{
+    float: left;
+    width: 35%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .8;
+}
+
+.der_pie{
+    float: right;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .8;
+}
+
+
+
+.centro_pie{
+    float: left;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .8;
+}
+
+
+
+.pie span{
+    font-size: large;
+    vertical-align: middle;
 }
 
 .table{
@@ -422,17 +473,13 @@ th{
 
 .formulario{
     color: grey;
-    background-color: #18181A;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
     border: 2px solid grey;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    background-size: cover;
-    width: 66%;
-    margin-left: 200px;
-   
-    
+    border-radius: 50px;
 }
 
 .title-f{
@@ -522,25 +569,6 @@ th{
 .table a:hover{
     text-decoration: none;
     color:red;
-}
-
-.footer-ul-container{
-    width: 400px;
-    height: 100px;
-    display: flex;
-    margin-left: 590px;
-}
-.footer-link{
-    float:left;
-}
-.footer-link1{
-    float:left;
-}
-.footer-link2{
-    float:left;
-}
-.footer-link3{
-    float:left;
 }
 
 .category-title{

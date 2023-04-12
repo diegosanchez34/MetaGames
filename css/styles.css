@@ -149,9 +149,19 @@
 }
 
 .titulo-pagina{
+    padding-top: 50px;
     text-align: center;
-    color:White;
-    font-size: 35px;
+    color:rgb(243, 237, 237);
+    font-size: 40px;
+    font-weight: 500;
+    opacity: .5;
+}
+
+.titulo-paginaG{
+    padding-top: 50px;
+    text-align: left;
+    color:rgb(243, 237, 237);
+    font-size: 40px;
     font-weight: 500;
     opacity: .5;
 }
@@ -161,6 +171,28 @@
     padding-right: 2%;
 }
 
+.estrellas{
+    height: 40px;
+    padding-right: 0%;
+}
+
+.puntaje{
+    
+    font-size: 20px;
+    text-decoration: none;
+    color:gray; 
+    float: right;
+    padding: 0.7%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 2%;
+    margin-right:78%;
+    border-radius: 10px;
+    background-color: #262628;
+    border-width: 0px;
+
+
+}
 .fila{
     padding-left: 3%;
     padding-right: 5%;
@@ -659,3 +691,85 @@ th{
     border:1px solid rgb(255, 252, 252);
 }
 
+.imagenjuego{
+    border-radius: 10px;
+}
+
+
+.slide-innerM{
+    padding: 30%;
+    padding-left: 0rem;
+    padding-top: 0rem;
+}
+
+.slide-controlM {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    z-index: 10;
+    transition: .4s;
+    display: none;
+}
+
+.slide-controlM.prev {
+    opacity: .5;
+    left: 2%;
+    top:27%
+}
+.slide-controlM.next {
+    opacity: .5;
+    right: 32%;
+    top: 27%;
+}
+.slide-controlM:hover {
+    opacity: .8;
+    transform: scale(1.5);
+}
+
+.slide-controlM img{
+    height: 40px;
+}
+
+
+.iframegames{
+    z-index:inherit;
+    border-radius: 10px;
+}
+
+.genero{
+    margin-top: -28rem;
+    color: rgb(255, 255, 255);
+    opacity: .5;
+    
+}
+
+.generoP{
+    color: rgb(255, 255, 255);
+    opacity: .5;
+    font-size: 20px;
+    margin-top: -1rem;
+    
+}
+
+.generoPa{
+    color: rgb(255, 255, 255);
+    opacity: .5;
+    font-size: 15px;
+    width: 1000px;
+    height: 100px;
+    font-weight: 10;
+    margin-top: -0.5rem;
+}
+
+.generoPe{
+    color: rgb(255, 255, 255);
+    opacity: .5;
+    
+}
+
+.generoPx{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    opacity: .5;
+}

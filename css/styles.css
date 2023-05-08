@@ -161,37 +161,7 @@
     color:white;
 }
 
-.barra-busqueda{
-    width: 30%;
-    height: 50px;
-    display: inline-block;
-    background-color: #262628;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    font-size: large;
-}
 
-.busqueda{
-    width: 80%;
-    padding-left: 10%;
-    height: 100%;
-    background: none;
-    border: none;
-    color: #858689;
-    outline: none;
-    float: left;
-}
-
-.boton-busqueda{
-    opacity: 0.5;
-    background: none;
-    border: none;
-    cursor: pointer;
-    width: 20%;
-    height: 100%;
-}
 
 .contenido{
     margin-left: 18%;
@@ -857,13 +827,3 @@ th{
     opacity: .5;
 }
 
-.cajitauwu{
-  
-
- 
-}
-.datitos{
-      background: rgb(186, 186, 19);
-      border-bottom-left-radius: 6.7px;
-      border-bottom-right-radius: 6.7px;
-}  

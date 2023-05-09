@@ -1,23 +1,43 @@
-function login(){
-    var user, password
-
-    user = document.getElementById("user").value;
-    password = document.getElementById("password").value;
-
-    if(user == "machuca-te" && password == 123456789){
-        window.location = "index.html";
-    }else{
-        alert("Datos incorrectos")
+$("#formulario_contacto").validate({
+    rules:{
+        nombre:{
+            required:true,
+            minlenght:3, maxlenght:30
+        },
+        email:{
+            required:true,
+            email:true}
+            ,tipo_solicitud:{
+                required:true
+            },
+        mensaje:{
+            required:true,
+            minlenght:3,
+            maxlenght:120
+            
+        },
+        terminos:{
+            required:true
+        }
     }
-
-    if(password.lenght<8){
-        alert("La contraseña debe tener mas de 8 caracteres")
-
-    }
-
     
+})
 
-}
 
 
+
+$("#enviar").click(function(){
+    if($("#formulario_contacto").valid()==false){
+        return;
+    }
+    let nombre = $("#nombre").val()
+    let email =$("#email").val()
+    let tipoSolicitud = $("#tipo_solicitud").val()
+    let mensaje = $("#mensaje").val()
+    let terminos = $("#temrinos").val()
+
+ //construir un json
+
+ //enviar los datos por post $.post
+})
 

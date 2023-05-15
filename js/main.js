@@ -2,7 +2,7 @@ $("#formulario_contacto").validate({
     rules:{
         nombre:{
             required:true,
-            minlenght:3, maxlenght:30
+   
         },
         email:{
             required:true,

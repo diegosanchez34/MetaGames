@@ -532,17 +532,32 @@ th {
   color: white;
   width: 100%;
  
-  padding: 4px;
+
   box-sizing: border-box;
   font-size: 17px;
 }
+#tipo_solicitud{
+  background-color: #26282c;
+  width: 20%;
+  height: 25px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+}
 
-
+#mensaje{
+  background: transparent;
+  color:white;
+}
 .formulario_con button {
   background-color: #26282c;
   width: 20%;
   height: 45px;
-  
+color:white;
   padding: 7px;
   box-sizing: border-box;
   font-size: 17px;
@@ -810,3 +825,24 @@ th {
   color: rgb(255, 255, 255);
   opacity: 0.5;
 }
+
+.buttonPun{
+  opacity: 0.5;
+  color: White;
+  text-decoration: none;
+  transition: 0.4s;
+  padding: 1.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: 2%;
+  margin-right: 5%;
+  border-radius: 10px;
+  background-color: #262628;
+}
+
+.buttonPun:hover{
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+

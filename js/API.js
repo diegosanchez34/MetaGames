@@ -5,8 +5,7 @@ $(document).ready(function(){
     $("#enviar").click(function(){
         $.ajax({
             url: apiURL,
-            headers:
-            {
+            headers: {
                 "X-RapidAPI-Key": apiKey,
                 "X-RapidAPI-Host": "metacriticapi.p.rapidapi.com",
                 "Authorization": "8bcda3f51amsh6f993b154ffcc77p113c88jsn55755df34e74" 

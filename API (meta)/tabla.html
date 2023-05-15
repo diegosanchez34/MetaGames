@@ -12,9 +12,45 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="funciones.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="icon" href="../icons/favicon_2.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro&display=swap" rel="stylesheet" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap"
+  rel="stylesheet"
+/>
+<link
+  rel="stylesheet"
+  href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+/>
 </head>
 
 <body class="cuerpo">
+    <nav class="izquierda">
+        <img class="logo" src="../img/MetaGamesLogo_2.png" alt="Logo de Meta-Games">
+
+        <ul>
+            <li> <img src="../icons/Inicio.svg" alt="icon inicio"> <a href="../index.html">Inicio</a></li>
+            <li> <img src="../icons/Nosotros.svg" alt="icon nosotros"> <a href="Nosotros.html">Nosotros</a></li>
+            <li> <img src="../icons/Retro.svg" alt="icon retrogames"> <a href="RetroGames.html">Retro Games</a></li>
+            <li> <img src="../icons/Nuevos.svg" alt="icon nuevos"> <a href="NewGames.html">New Games</a></li>
+            <li> <img src="../icons/Clasicos.svg" alt="icon clasicos"> <a href="ClassicGames.html">Classic Games</a></li>
+            <li> <img src="../icons/Contactanos.svg"alt="icon contacto"> <a href="Contactanos.html">Contacto</a></li>
+       </ul> 
+    </nav>
+    <header class="cabecera">
+        <div class="search">
+            <span class="uil uil-search">
+            </span>
+            <input placeholder="Buscar...." type="text" />
+            
+          </div>    
+        <a class="sing-in" href="Registrarse.html">Registrarse</a>
+        <a class="log-in" href="IniciarSesion.html">Iniciar Sesión</a>
+    </header>
     <main class="contenido">
         <div class="titulo-pagina"><span>Nuestra puntuación de juegos</span></div>
 
@@ -32,6 +68,24 @@
                 </tbody>
         </table>
     </main>
+    
+    <footer class="pie">  
+        <div class="izq_pie">
+          <img class="logo_pie" src="../img\MetaGamesLogo_3.png" alt="Logo de Meta-Games blanco">
+        </div>
+  
+        <div class="centro_pie">
+          <span>Siguenos en: </span>
+          <a href="https://www.instagram.com/"><img class="icono_pie" src="../icons\instagram.svg" alt="Logo de Instagram"></a>
+          <a href="https://www.facebook.com/"><img class="icono_pie" src="../icons\facebook.svg" alt="Logo de Instagram"></a>
+          <a href="https://twitter.com/"><img class="icono_pie" src="../icons\twitter.svg" alt="Logo de Instagram"></a>
+        </div>
+  
+        <div class="der_pie">
+          <span>MetaGames © 2023</span>
+        </div>      
+      </footer>
+
 
     <!-- Se agregan los Script del Boostrap para el diseño del botón y la tabla-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"

@@ -28,17 +28,17 @@ $(document).ready(function(){
 
         event.preventDefault();
       
-        var exito = true;
-        
-        if (exito) {
-            $('#miModal').modal('show');
-        }
+        $('#miModal').modal('show');
             
     });
 
     $("#cerrar").click(function() {
         $("#formulario_contacto")[0].reset();
-      });
+    });
+
+    $("#close").click(function() {
+        $("#formulario_contacto")[0].reset();
+    });
 
     function validarCorreo(correo){
         var ejemploCorreo = /\S+@\S+\.\S+/;

@@ -25,7 +25,20 @@ $(document).ready(function(){
             alert("Por favor, escriba el mensaje a enviar");
             return false;
         }
+
+        event.preventDefault();
+      
+        var exito = true;
+        
+        if (exito) {
+            $('#miModal').modal('show');
+        }
+            
     });
+
+    $("#cerrar").click(function() {
+        $("#formulario_contacto")[0].reset();
+      });
 
     function validarCorreo(correo){
         var ejemploCorreo = /\S+@\S+\.\S+/;

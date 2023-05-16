@@ -47,7 +47,7 @@
 
       <div class="titulo-pagina"><img src="../icons\Contactanos.svg"><span>Contáctanos</span></div>
 
-      <form class="formulario" id="formulario_contacto" action="Satisf.html">
+      <form class="formulario" id="formulario_contacto">
         <h3>Escríbenos un mensaje</h3>
         <h5>Nos pondremosen contacto contigo cuanto antes.</h5><br>
         
@@ -87,9 +87,28 @@
           <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí."></textarea>
         </div><br>
 
-        <button type="submit" class="btn btn-secondary" id="enviar">Enviar</button>
+        <button type="submit" class="btn btn-secondary" id="enviar" >Enviar</button>
         <button type="reset" class="btn btn-secondary" id="limpiar">Limpiar</button>
       </form>
+
+      <div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel">¡Mensaje enviado con éxito!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Gracias por tus comentarios, te responderemos a la brevedad</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="cerrar">Cerrar</button>
+              </div>
+            </div>
+          </div>
+      </div>
     </main>
 
     <footer class="pie">  

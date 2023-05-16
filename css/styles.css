@@ -23,6 +23,7 @@
   transition: 0.4s;
 }
 
+
 .izquierda ul li a {
   text-decoration: none;
   color: white;
@@ -46,6 +47,7 @@
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 }
+
 
 .search {
   display: inline-flex;
@@ -860,5 +862,21 @@ th {
   opacity: 0.5;
   text-decoration: none;
 }
+.centro_pie{}
+.centro_pie a img{
+  border-radius: 10px;
+  width: 50px;
+}
+.fa-facebook-f:hover{
+  background: #41579A;
+  color: #fff;
+}
+.fa-google-plus-g:hover{
+  background: #3973d1;
+  color: #fff;
+}
 
-
+.fa-instagram:hover{
+  background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+  color: #fff;
+}

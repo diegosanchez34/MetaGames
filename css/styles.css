@@ -493,13 +493,76 @@ th {
   background-color: #262628;
 }
 
-.formulario_con {
+.formulario{
   color: grey;
-  width: 60%;
-  padding: 2%;
-  border: 2px solid grey;
-  border-radius: 20px;
-  display: absolute;
+  background-color: #262628;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 30px;
+}
+
+.formulario button{
+  display: inline;
+  flex-direction: row;
+  margin: 1%;
+}
+
+.formulario h3{
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.formulario h5{
+  text-align: center;
+}
+
+.formulario label{
+  color: #CCCCCC;
+}
+
+.formulario input{
+  color: grey;
+  background: #18181A;
+  border: 0px;
+}
+
+.formulario input:focus{
+  color: grey;
+  background: #18181A;
+  border: 0px solid grey;
+}
+
+.formulario input::placeholder{
+  color: grey;
+}
+
+.formulario select{
+  color: grey;
+  background: #18181A;
+  border: 0px;
+}
+
+.formulario select:focus{
+  color: grey;
+  background: #18181A;
+  border: 0px;
+}
+
+.formulario textarea{
+  color: grey;
+  background: #18181A;
+  border: 0px;
+}
+
+.formulario textarea:focus{
+  color: grey;
+  background: #18181A;
+  border: 0px;
 }
 
 .title-f {
@@ -507,64 +570,6 @@ th {
   color: white;
   margin-bottom: 20px;
   text-decoration: underline;
-}
-
-
-.formulario_con input {
-  
- 
-  width: 65%;
-  height: 40px;
-  background: transparent;
-  border: 1px solid black;
-  outline: none;
-  font-size: 1em;
-  padding: 0 35px 0 5px;
-  color: #fffefe;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-
-  border-top-right-radius: 20px;
-}
-
-.formulario_con label {
-  color: white;
-  width: 100%;
- 
-
-  box-sizing: border-box;
-  font-size: 17px;
-}
-#tipo_solicitud{
-  background-color: #26282c;
-  width: 20%;
-  height: 25px;
-  box-sizing: border-box;
-  font-size: 17px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
-  color: white;
-}
-
-#mensaje{
-  background: transparent;
-  color:white;
-}
-.formulario_con button {
-  background-color: #26282c;
-  width: 20%;
-  height: 45px;
-color:white;
-  padding: 7px;
-  box-sizing: border-box;
-  font-size: 17px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
 }
 
 .mensaje {
@@ -587,6 +592,17 @@ color:white;
 .redes img {
   width: 200px;
   height: 200px;
+}
+
+#tablajuegos{
+  text-align: center;
+  border: 0px;
+  border-radius: 15px;
+  margin-bottom: 3%;
+}
+
+#tablajuegos img{
+  vertical-align: middle;
 }
 
 .table a {

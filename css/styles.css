@@ -876,7 +876,7 @@ th {
   opacity: 0.5;
   text-decoration: none;
 }
-.centro_pie{}
+
 .centro_pie a img{
   border-radius: 10px;
   width: 50px;
@@ -894,6 +894,22 @@ th {
   background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
   color: #fff;
 }
+
+.error {
+  color: #9c423b;
+  margin: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #18181A inset !important;
+}
+input:-webkit-autofill{
+  -webkit-text-fill-color: grey !important;
+}
+
 
 
 

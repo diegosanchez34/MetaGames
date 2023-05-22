@@ -85,3 +85,4 @@ card.addEventListener('mouseout', () => {
   wordOverlay.style.transform = 'translateX(-100%)';
   wordOverlay.style.opacity = '0';
 });
+

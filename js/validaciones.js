@@ -1,28 +1,39 @@
 $(document).ready(function(){
+
     $("#formulario_contacto").submit(function(){
+        $("#error-nombre").hide();
+        $("#error-correo").hide();
+        $("#error-solicitud").hide();
+        $("#error-mensaje").hide();    
+
         var nombre = $("#nombre").val();
         var correo = $("#correo").val();
         var solicitud = $("#solicitud").val();
         var mensaje = $("#mensaje").val();
         
         if(nombre == ""){
-            alert("Por favor, ingrese su nombre");
+            $("#error-nombre").html("El campo Nombre es obligatorio.");
+            $("#error-nombre").show();
             return false;
         }
         else if(correo == ""){
-            alert("Por favor, ingrese su correo electrónico");
+            $("#error-correo").html("El campo Email es obligatorio.");
+            $("#error-correo").show();
             return false;
         }
         else if(!validarCorreo(correo)){
-            alert("Por favor, ingrese un correo electrónico válido");
+            $("#error-correo").html("Por favor, escribe una dirección de correo válida");
+            $("#error-correo").show();
             return false;
         }
         else if(solicitud == ""){
-            alert("Por favor, selecione el tipo de solicitud");
+            $("#error-solicitud").html("Selecione un tipo de solicitud.");
+            $("#error-solicitud").show();
             return false;
         }
         else if(mensaje == ""){
-            alert("Por favor, escriba el mensaje a enviar");
+            $("#error-mensaje").html("El campo Mensaje es obligatorio.");
+            $("#error-mensaje").show();
             return false;
         }
 
@@ -33,11 +44,11 @@ $(document).ready(function(){
     });
 
     $("#cerrar").click(function() {
-        $("#formulario_contacto")[0].reset();
+        location.reload();
     });
 
     $("#close").click(function() {
-        $("#formulario_contacto")[0].reset();
+        location.reload();
     });
 
     function validarCorreo(correo){

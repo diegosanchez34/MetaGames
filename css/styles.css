@@ -896,6 +896,22 @@ th {
   color: #fff;
 }
 
+.error {
+  color: #9c423b;
+  margin: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #18181A inset !important;
+}
+input:-webkit-autofill{
+  -webkit-text-fill-color: grey !important;
+}
+
+
 
 
 .image-container {

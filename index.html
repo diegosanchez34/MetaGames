@@ -16,6 +16,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="js/API.js"></script>
+    <script src="../MetaGames/js/main.js"></script>
 </head>
 
 <body class="cuerpo"> 
@@ -37,7 +38,7 @@
         <div class="search">
           <span class="uil uil-search">
           </span>
-          <input placeholder="Buscar...." type="text" />
+          <input id="searchInput" placeholder="Buscar...." type="text" />
           
         </div>
          <a class="sing-in" href="html\Registrarse.html">Registrarse</a>
@@ -79,39 +80,51 @@
       <div class="titulo-pagina"><span>Juegos Destacados</span></div>
 
       <section class="fila">
-          <div class="card" style="width: 18rem;" id="game">
+        <div class="image-container">
+          <div class="card" data-categoria="Accion" data-categoria="Mundo-Abierto" style="width: 18rem;" id="game">
               <img class="card-img-top" src="img/classic/gta52.jpg" alt="Card image cap">
+              <div class="word-overlay">Accion/Mundo Abierto</div>
               <div class="card-body">
                 <h4 class="card-title">Grand Theft Auto V</h4>
                 <p class="card-text">$5.000</p>
                 <a href="torrents/gta5.torrent" class="btn btn-dark btn-block">Descargar</a>
               </div>
+              </div>
           </div>
 
-          <div class="card" style="width: 18rem;" id="game">
+          <div class="image-container"></div>
+          <div class="card" data-categoria:="Carreras" data-categoria:="Automoviles" style="width: 18rem;" id="game">
             <img class="card-img-top" src="img/new/forza_horizon_5 (1).jpg" alt="Card image cap">
+            <div class="word-overlay">Carreras/Automoviles</div>
             <div class="card-body">
               <h4 class="card-title">Forza Horizon 5</h4>
               <p class="card-text">$5.000</p>
               <a href="torrents/forzahorizon5.torrent" class="btn btn-dark btn-block">Descargar</a>
             </div>
+            </div>
           </div>
 
-          <div class="card" style="width: 18rem;" id="game">
+          <div class="image-container"></div>
+          <div class="card" data-categoria:="Accion" data-categoria:="RPG" style="width: 18rem;" id="game">
             <img class="card-img-top" src="img/new/elden_ring.jpg" alt="Card image cap">
+            <div class="word-overlay">Accion/RPG</div>
             <div class="card-body">
               <h4 class="card-title">The Witcher 3</h4>
               <p class="card-text">$5.000</p>
               <a href="torrents/thewitcher3.torrent" class="btn btn-dark btn-block">Descargar</a>
             </div>
+            </div>
           </div>
-
-          <div class="card" style="width: 18rem;" id="game">
+          
+          <div class="image-container">
+          <div class="card" data-categoria:="Accion" data-categoria:="RPG"  style="width: 18rem;" id="game">
             <img class="card-img-top" src="img/new/the_witcher_3.jpg" alt="Card image cap">
+            <div class="word-overlay">Accion/RPG</div>
             <div class="card-body">
               <h4 class="card-title">Elden Ring</h4>
               <p class="card-text">$5.000</p>
               <a href="https://www.gamestorrents.fm/wp-content/uploads/files/1672233001-ELDEN.RING.Deluxe.Edition.v1.08.1-P2P.torrent" class="btn btn-dark btn-block">Descargar</a>
+            </div>
             </div>
           </div>
         

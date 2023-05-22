@@ -71,3 +71,17 @@ $(document).ready(function(){
         });
     });
 });
+
+
+const card = document.getElementById('game');
+const wordOverlay = card.querySelector('.word-overlay');
+
+card.addEventListener('mouseover', () => {
+  wordOverlay.style.transform = 'translateX(0)';
+  wordOverlay.style.opacity = '1';
+});
+
+card.addEventListener('mouseout', () => {
+  wordOverlay.style.transform = 'translateX(-100%)';
+  wordOverlay.style.opacity = '0';
+});

@@ -498,6 +498,7 @@ th {
 
 .card {
   transition: transform 0.15s;
+  
 }
 
 .card:hover {
@@ -876,7 +877,7 @@ th {
   opacity: 0.5;
   text-decoration: none;
 }
-.centro_pie{}
+
 .centro_pie a img{
   border-radius: 10px;
   width: 50px;
@@ -894,6 +895,31 @@ th {
   background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
   color: #fff;
 }
+
+
+
+.image-container {
+  position: relative;
+}
+
+.word-overlay {
+  position: absolute;
+  top: 65%;
+  left: 3%;
+  transform: translateX(-3%);
+  color: rgba(255, 255, 255, 0.822);
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.card:hover .word-overlay {
+  transform: translateX(0);
+  opacity: 0.9;
+}
+
 
 
 

@@ -496,7 +496,18 @@ th {
   border-top-right-radius: 20px;
 }
 
+#perfil{
+  opacity: .7;
+  transition: transform 0.15s;
+}
+
+#perfil:hover {
+  opacity: 1;
+}
+
 .card {
+  background-color: transparent;
+  border: 0px;
   transition: transform 0.15s;
 }
 

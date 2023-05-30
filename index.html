@@ -16,6 +16,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="js/API.js"></script>
+    <script src="../MetaGames/js/main.js"></script>
 </head>
 
 <body class="cuerpo"> 
@@ -37,7 +38,7 @@
         <div class="search">
           <span class="uil uil-search">
           </span>
-          <input placeholder="Buscar...." type="text" />
+          <input id="searchInput" placeholder="Buscar...." type="text" />
           
         </div>
          <a class="sing-in" href="html\Registrarse.html">Registrarse</a>
@@ -77,32 +78,56 @@
       </div>
 
       <div class="titulo-pagina"><span>Juegos Destacados</span></div>
+
       <section class="fila">
-        <a class="juego" title="Descargar Grand Theft Auto V Link Torrent😍" href="../torrents/gta5.torrent">
-          <img class="cover" src="img/classic/gta52.jpg" alt="gta5"/>  
-          <spam class="tituloNU">Grand Theft Auto V</spam><BR>
-          <spam class="precio">$5.000</spam>
-        </a>
+        <div class="image-container">
+          <div class="card" data-categoria="Accion" data-categoria="Mundo-Abierto" style="width: 18rem;" id="game">
+              <img class="card-img-top" src="img/classic/gta52.jpg" alt="Card image cap">
+              <div class="word-overlay">Accion/Mundo Abierto</div>
+              <div class="card-body">
+                <h5 class="card-title">Grand Theft Auto V</h5>
+                <p class="card-text">$5.000</p>
+                <a href="torrents/gta5.torrent" class="btn btn-dark btn-block">Descargar</a>
+              </div>
+              </div>
+          </div>
 
-        <a class="juego" title="Descargar Red Dead Redemption 2 Link Torrent😍"
-            href="../torrents/reddeadredemption2.torrent">
-            <img class="cover" src="img/new/reddead.jpg" alt="reddead" />
-            <spam class="tituloNU">Red Dead Redemption 2</spam><BR>
-            <spam class="precio">$5.000</spam>
-        </a>
+          <div class="image-container">
+          <div class="card" data-categoria:="Carreras" data-categoria:="Automoviles" style="width: 18rem;" id="game">
+            <img class="card-img-top" src="img/new/forza_horizon_5 (1).jpg" alt="Card image cap">
+            <div class="word-overlay">Carreras/Automoviles</div>
+            <div class="card-body">
+              <h5 class="card-title">Forza Horizon 5</h5>
+              <p class="card-text">$5.000</p>
+              <a href="torrents/forzahorizon5.torrent" class="btn btn-dark btn-block">Descargar</a>
+            </div>
+            </div>
+          </div>
 
-        <a class="juego" title="Descargar The Witcher 3 Link Torrent😍" href="../torrents/thewitcher3.torrent">
-            <img class="cover" src="img/new/the_witcher_3.jpg" alt="thewitcher" />
-            <spam class="tituloNU">The Witcher 3</spam><BR>
-            <spam class="precio">$5.000</spam>
-        </a>
-
-        <a class="juego" title="Descargar Elden Ring Link Torrent😍"
-            href="https://www.gamestorrents.fm/wp-content/uploads/files/1672233001-ELDEN.RING.Deluxe.Edition.v1.08.1-P2P.torrent">
-            <img class="cover" src="img/new/elden_ring.jpg" alt="eldenring" />
-            <spam class="tituloNU">Elden Ring</spam><BR>
-            <spam class="precio">$5.000</spam>
-        </a>
+          <div class="image-container">
+          <div class="card" data-categoria:="Accion" data-categoria:="RPG" style="width: 18rem;" id="game">
+            <img class="card-img-top" src="img/new/elden_ring.jpg" alt="Card image cap">
+            <div class="word-overlay">Accion/RPG</div>
+            <div class="card-body">
+              <h5 class="card-title">The Witcher 3</h5>
+              <p class="card-text">$5.000</p>
+              <a href="torrents/thewitcher3.torrent" class="btn btn-dark btn-block">Descargar</a>
+            </div>
+            </div>
+          </div>
+          
+          <div class="image-container">
+          <div class="card" data-categoria:="Accion" data-categoria:="RPG"  style="width: 18rem;" id="game">
+            <img class="card-img-top" src="img/new/the_witcher_3.jpg" alt="Card image cap">
+            <div class="word-overlay">Accion/RPG</div>
+            <div class="card-body">
+              <h5 class="card-title">Elden Ring</h5>
+              <p class="card-text">$5.000</p>
+              <a href="https://www.gamestorrents.fm/wp-content/uploads/files/1672233001-ELDEN.RING.Deluxe.Edition.v1.08.1-P2P.torrent" class="btn btn-dark btn-block">Descargar</a>
+            </div>
+            </div>
+          </div>
+        
       </section>
 
       <div class="titulo-pagina"><span>Tabla de puntuación de videojuegos</span></div>
@@ -132,10 +157,9 @@
 
       <div class="centro_pie">
         <span>Siguenos en: </span>
-       
-        <a href="https://www.instagram.com/"><img class="fa-facebook-f" src="icons\facebook.svg" alt="Logo de Instagram"></a>
-        <a href="https://www.facebook.com/"><img class="fa-google-plus-g" src="icons\twitter.svg" alt="Logo de Instagram"></a>
-        <a href="https://twitter.com/"><img class="fa-instagram" src="icons\instagram.svg" alt="Logo de Instagram"></a>
+        <a href="https://www.instagram.com/"><img class="fa-instagram" src="icons/instagram.svg" alt="Logo de Instagram"></a>
+        <a href="https://www.facebook.com/"><img class="fa-facebook-f" src="icons/facebook.svg" alt="Logo de Instagram"></a>
+        <a href="https://twitter.com/"><img class="fa-google-plus-g" src="icons/twitter.svg" alt="Logo de Instagram"></a>
       </div>
 
       <div class="der_pie">

@@ -481,13 +481,39 @@ th {
   color: white;
 }
 
+#game{
+  text-align: center;
+  border: 0px;
+  background-color: #18181a;
+}
+
+#game p {
+  font-size: 20px;
+}
+
+#game-img{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#perfil{
+  opacity: .7;
+  transition: transform 0.15s;
+}
+
+#perfil:hover {
+  opacity: 1;
+}
+
 .card {
-  opacity: 0.5;
-  transition: 0.4s;
+  background-color: transparent;
+  border: 0px;
+  transition: transform 0.15s;
+  
 }
 
 .card:hover {
-  opacity: 1;
+  transform: scale(1.05);
 }
 
 .card-body {
@@ -826,7 +852,7 @@ th {
 .generoPa {
   color: rgb(255, 255, 255);
   opacity: 0.5;
-  font-size: 15px;
+  font-size: 18px;
   width: 1000px;
   height: 100px;
   font-weight: 10;
@@ -839,7 +865,7 @@ th {
 }
 
 .generoPx {
-  font-size: 35px;
+  font-size: 30px;
   color: rgb(255, 255, 255);
   opacity: 0.5;
 }
@@ -862,7 +888,7 @@ th {
   opacity: 0.5;
   text-decoration: none;
 }
-.centro_pie{}
+
 .centro_pie a img{
   border-radius: 10px;
   width: 50px;
@@ -880,3 +906,50 @@ th {
   background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
   color: #fff;
 }
+
+.error {
+  color: #9c423b;
+  margin: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #18181A inset !important;
+}
+input:-webkit-autofill{
+  -webkit-text-fill-color: grey !important;
+}
+
+
+
+
+.image-container {
+  position: relative;
+}
+
+.word-overlay {
+  position: absolute;
+  top: 65%;
+  left: 3%;
+  transform: translateX(-3%);
+  color: rgba(255, 255, 255, 0.822);
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.card:hover .word-overlay {
+  transform: translateX(0);
+  opacity: 0.9;
+}
+
+.listreq{
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+
+
